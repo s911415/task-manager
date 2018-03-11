@@ -1,0 +1,234 @@
+@charset "UTF-8";
+@media screen and (max-width: 800px) {
+	#m7c28967712d2ee7ee6054642a1cc0f2a,
+	#m6ac3b8041cad3899ac89259c02cb4fd2,
+	dpfhoph{display:block !important}
+	
+	#m43dbae45c1c025f4671bdffed8e26c44,
+	.logout,.setNow,
+	.eval,
+	.resp:nth-child(3),
+	ifhj{display:none !important}
+	
+	
+	
+	
+	#filter .wh {
+		/*font-size:1rem;*/
+		font-size:.8rem;
+	}
+	.whic {
+	}
+	
+
+	.notccc {
+		/* margin: 0 !important; */
+		/* margin-bottom: .5rem !important; */
+	}
+	.project_name {
+		max-width: 5rem;
+		margin-right:.25rem;
+		text-overflow: clip !important;
+	}
+	.row.action {
+		width: 4rem;
+	}
+	/*
+	form .flex {
+		width: auto !important;
+		display: block;
+		margin: 0;
+	}
+	form .flex>.row {
+		margin: .5rem 0;
+		width: auto !important;
+	}
+	*/
+	.uploadF {
+		width: calc(100% - 20px);
+	}
+	
+	header {
+		position: fixed;
+		z-index: 998;
+		top: 0;
+		left: 0;
+		width: 100%;
+		box-shadow: 0 0 4px rgba(0, 0, 0, 0.14),0 4px 8px rgba(0, 0, 0, 0.28);
+	}
+	#menu {
+		position: fixed;
+		left: 0;
+		-webkit-transform: translateY(-100%);
+		    -ms-transform: translateY(-100%);
+		        transform: translateY(-100%);
+		width: 100%;
+		z-index: 996 !important;
+		color: inherit !important;
+		height: auto !important;
+		line-height: 2rem !important;
+		background: #FFF !important;
+		top: 3rem !important;
+		padding-top: 1rem;
+		box-sizing: none;
+	}
+	#menu .w {
+		width: calc(100% - 2rem) !important;
+	}
+	#menu>.w>.right:first-child {
+		float: none;
+		margin-bottom: 1rem;
+		/* border-bottom:1px solid #CCC; */
+	
+	}
+	#menu ul.first>li:last-of-type{
+		border-bottom:none;
+	}
+	#top_menu {
+		width: 3rem;
+		height: 100%;
+	}
+	#top_menu a {
+		display: none;
+	}
+	#top_menu .mobmenu {
+		width: 100%;
+		height: 3rem;
+		background: url(../images/more.png) no-repeat center/1.75rem auto;
+		transition:.25s linear;
+	}
+	#top_menu .mobmenu.more{
+		background-image:url(../images/less.png);
+	}
+	
+	#menu.show {
+		-webkit-transform: translateY(0);
+		    -ms-transform: translateY(0);
+		        transform: translateY(0);
+		box-shadow: 0 0 4px rgba(0, 0, 0, 0.14),0 4px 8px rgba(0, 0, 0, 0.28);
+	}
+	
+	#fake_menu {
+		box-shadow: none;
+		height: 3rem;
+		display: block !important
+	}
+	
+	#menu .logout {
+		display: initial !important;
+		float:right;
+	}
+	#menu .child {
+		text-indent: 0 !important;
+	}
+	#menu .child.show>ul {
+		width: calc(100% - 2rem);
+		margin-left: 2rem;
+	}
+	#row_uploadedFile{
+		margin-top:2rem;
+	}
+	
+	#menu .first{
+		display:flex;
+		  justify-content: space-between;
+		  flex-flow:row wrap;
+		  padding-bottom:1rem;
+	}
+	#menu ul.first>li{
+		width:5rem !important;
+		height:5rem !important;
+		line-height:2.5rem;
+		text-align:center;
+		font-size:1.5rem;
+		word-break: break-all;
+		box-sizing:border-box;
+		padding:0 .5rem;
+		border-radius:.75rem;
+		border:1px solid #CCC;
+		box-sizing:border-box;
+		box-shadow:#CCC 1px 1px 3px;
+		color:#FFF;
+		background:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,.1) 80%,rgba(0,0,0,.2) 100%) no-repeat center;
+		margin:0 0 1rem;
+	}
+	#menu ul.first>li:hover{
+	  -webkit-filter: invert(0.1);
+	}
+	/*
+	FF3B30
+	5856D6
+	007AFF
+	
+	FFCC00
+	4CD964
+	FF9500
+	*/
+	
+	#menu ul.first>li:nth-of-type(6n+1){background-color:#FF3B30;}
+	#menu ul.first>li:nth-of-type(6n+2){background-color:#FFCC00;}
+	#menu ul.first>li:nth-of-type(6n+3){background-color:#5856D6;}
+	
+	#menu ul.first>li:nth-of-type(6n+4){background-color:#4CD964;}
+	#menu ul.first>li:nth-of-type(6n+5){background-color:#007AFF;}
+	#menu ul.first>li:nth-of-type(6n+6){background-color:#FF9500;}
+	
+	#menu ul.first>li:-webkit-any(:nth-of-type(6n+1),:nth-of-type(6n+3),:nth-of-type(6n+5)){
+		color:#FFF;
+	}
+	#menu ul.first>li:-webkit-any(:nth-of-type(6n+2),:nth-of-type(6n+4),:nth-of-type(6n+6)){
+		color:#333;
+	}
+	#logo{
+	}
+}
+
+@media screen and (max-width: 500px){
+	html{
+		font-size:18px;
+	}
+	.flex:-webkit-any([index]){
+		display:block;
+	}
+
+	.flex:-webkit-any([index]) .row{
+		margin:0;
+	}
+	.row.project_name{
+		display:none;
+	}
+	#fpo{
+		width: 100%;
+		overflow-x: scroll;
+	}
+	#filter{
+		width:calc(115px * 8);
+	}
+	#spp{
+		float:none;
+		clear:both;
+		padding:.5rem 0 .25rem;
+	}
+	.row.action{
+		width:2rem;
+	}
+	
+	#logo::before{
+		background-image:url(../images/logo.svg);
+	}
+	
+	#ojjrtj,
+	isodj{display:none}
+	
+	.hideSec{
+		left:calc(50% + 2rem);
+	}
+	/*
+	.wh[txt="本日截止"]{order:1}
+	.wh[txt="三日內截止"]{order:2}
+	.wh[txt="全部未完成"]{order:4}
+	.wh[txt="三日內新增"]{order:5}
+	.wh[txt="全部完成"]{order:6}
+	.wh[txt="新增工作"]{order:3}
+	*/
+}

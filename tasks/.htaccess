@@ -1,0 +1,4 @@
+php_value session.name "TASKMANAGE_SESSION"
+RewriteEngine on
+RewriteCond %{REQUEST_URI} ^(.*)$ [NC]
+RewriteRule ^upload/(\d+)/(.*)$ index.php?act=File&func=getFile&sp=1&id=$1  [L]

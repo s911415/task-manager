@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/*File icons*/
+.filetype{
+	display:inline-block;
+	margin-right:4px;
+	width:26px;
+	height:22px;
+	float:left;
+	background:url(../images/filetype.png) no-repeat -421px -83px;
+}
+
+.filetype[ext="png"],
+.filetype[ext="jpg"],
+.filetype[ext="gif"],
+.filetype[ext="bmp"],
+.filetype[ext="jpge"]
+{background-position: 0 -80px;}
+    
+
+.filetype[ext="vsd"]{background-position: -32px -80px}
+
+.filetype[ext="pdf"]{background-position: -64px -80px}
+
+.filetype[ext="doc"],
+.filetype[ext="docx"]
+{background-position: -96px -80px}
+
+.filetype[ext="xls"],
+.filetype[ext="xlsx"]
+{background-position: -128px -80px}
+
+.filetype[ext="txt"]{background-position: -160px -80px}
+
+.filetype[ext="mp4"],
+.filetype[ext="mov"],
+.filetype[ext="mkv"],
+.filetype[ext="wmv"],
+.filetype[ext="rmvb"]
+{background-position: -224px -80px}
+
+.filetype[ext="ppt"],
+.filetype[ext="pptx"]
+{background-position: -256px -80px}
+
+.filetype[ext="ipa"]{background-position: -288px -80px}
+
+.filetype[ext="rar"],
+.filetype[ext="zip"],
+.filetype[ext="7z"]
+{background-position: -352px -80px}
+
+.filetype[ext="apk"]{background-position: -384px -80px}
+
+.filetype[ext="psd"]{background-position: -512px -80px}
+
+.filetype[ext="."]{background-position: 0 0;}
+/*End of File icons*/

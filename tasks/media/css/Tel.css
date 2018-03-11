@@ -1,0 +1,58 @@
+#menu ul.first>li{display:none}
+#menu ul.first>li[href*="Tel&"]{display:inline-block}
+#m0dbe33cf3c4b7e12c29edf256ddedb28{display:none !important}
+#m789e6b3f76fcb3735d031c0a7d9a95c7{
+	display:inline-block !important;
+}
+#m789e6b3f76fcb3735d031c0a7d9a95c7 a::before{
+	content:"回到";
+}
+#telNav{
+	text-align:center;
+	color:#888;
+}
+.record{
+	background:#FFF;
+	box-sizing:border-box;
+	padding:1rem;
+	box-shadow:rgba(0,0,0,.3) 1px 1px 2px;
+	margin:.5rem 0;
+}
+.record label{
+	line-height:2rem !important;
+	color:#666;
+	padding-right:.75rem;
+	width:5rem;
+	text-align:right;
+}
+
+.ttt{
+	line-height:1rem;
+}
+
+.flex>.row, .fffa{
+	margin-left:0;
+}
+#row_school,#0row_incall_time,#row_check_uid{flex:2;}
+/*#row_id{flex:3;}*/
+.record>div{
+	border-bottom:1px dashed #CCC;
+}
+.actions{
+	border:none;
+	text-align:right;
+	padding-top:.5rem;
+}
+
+#oijdfho input,#oijdfho select,#oijdfho .txt,#cate .txt,#school .txt{
+	width: auto;
+	display: inline-block;
+}
+.fffa{overflow:hidden;}
+
+#incall_time~.hideSec{display:none !important}
+
+div.spp{
+	border-bottom: 1px solid #CCC !important;
+	padding-bottom: .25rem;
+}
